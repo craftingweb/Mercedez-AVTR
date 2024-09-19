@@ -31,10 +31,19 @@ a {
 body {
   line-height: 120%;
   font-family: "Roboto Condensed", "sans-serif";
-  background-color: #070a1b;
+  background: linear-gradient(180deg, #070a1b 0%, #2a3170 100%);
+
   font-size: 16px;
   font-weight: 400;
   color: #fff;
+}
+
+.section-page {
+  margin-bottom: 150px;
+}
+
+.header-logo {
+  margin-left: 60px;
 }
 
 .header__top {
@@ -99,4 +108,126 @@ body {
 .title-desc {
   font-size: 24px;
   margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #070a1b;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.concept__inner {
+  max-width: 900px;
+  margin-left: 300px;
+}
+
+.section__title {
+  color: #f402a2;
+  font-family: "Corporate A";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.concept__text {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 25px;
+}
+
+.premier__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premier__left,
+.premier__right {
+  max-width: 570px;
+}
+
+.premier__text p {
+  margin-bottom: 30px;
+}
+
+.premier-btn {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #f402a2;
+  padding: 14px 0;
+  border: 1px solid #f402a2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-top: 25px;
+  transition: all 0.6s;
+}
+
+.premier-btn:hover {
+  color: #53a1cb;
+  border: 1px solid #53a1cb;
+}
+
+.premier__right-text {
+  margin-top: 25px;
+}
+
+.video-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-btn span {
+  margin-left: 15px;
+}
+
+.video-btn:hover path {
+  fill: #53a1cb;
+}
+
+.video-btn path {
+  transition: all 0.6s;
+}
+
+.design__interior {
+  display: grid;
+  grid-template-columns: 255px 255px auto 330px;
+  grid-template-rows: auto auto;
+  gap: 14px 44px;
+}
+
+.design__cell-one {
+  grid-row: 1/3;
+}
+
+.design__cell-two {
+  grid-row: 2/3;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design__cell-three {
+  grid-column-end: -1;
+  grid-row-end: -1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.design__cell-text {
+  margin-bottom: 25px;
 }
